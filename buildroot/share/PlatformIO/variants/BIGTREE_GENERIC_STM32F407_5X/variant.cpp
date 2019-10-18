@@ -28,7 +28,7 @@
  *******************************************************************************
  */
 
-#include "pins_arduino.h"
+#include "variant.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -205,7 +205,8 @@ extern "C" {
   * @param  None
   * @retval None
   */
-WEAK void SystemClock_Config() {
+WEAK void SystemClock_Config(void)
+{
 
   RCC_OscInitTypeDef RCC_OscInitStruct;
   RCC_ClkInitTypeDef RCC_ClkInitStruct;
