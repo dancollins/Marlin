@@ -1102,7 +1102,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 190
 #define Y_MAX_POS 212
-#define Z_MAX_POS 202
+#define Z_MAX_POS 204
 
 /**
  * Software Endstops
